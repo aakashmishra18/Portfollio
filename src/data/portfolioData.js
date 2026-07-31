@@ -64,12 +64,12 @@ export const projects = [
     stack: ['React', 'Node.js', 'MySQL', 'Redis', 'Nginx'],
     link: 'https://nectmate.com',
   },
-  {
-    title:'Todo-App',
-    description:"A simple task manager with a deliberately over-the-top late-90s web aesthetic: tiled starfield background, beveled Windows 95 buttons, scrolling marquee banners, blinking under construction badges, and a rainbow-animated title. Under the hood it's plain HTML/CSS/JavaScript with no frameworks or build step — tasks are stored in localStorage, so your list persists across page reloads",
-    Stack: ['HTML', 'CSS', 'vanilla JavaScript'],
-    link:'https://to-do-app-gi.netlify.app/'
-  },
+ {
+  title:'Todo-App',
+  description:"A simple task manager with a deliberately over-the-top late-90s web aesthetic...",
+  stack: ['HTML', 'CSS', 'vanilla JavaScript'],   // ✅ fixed
+  link:'https://to-do-app-gi.netlify.app/'
+},
   {
     title: 'Real-Time Chat Application',
     description:
