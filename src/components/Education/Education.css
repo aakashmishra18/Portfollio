@@ -1,0 +1,58 @@
+.education__timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 1px solid var(--border);
+}
+
+.education__item {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.education__item:last-child {
+  padding-bottom: 0;
+}
+
+.education__marker {
+  position: absolute;
+  left: -33px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
+.education__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.education__row h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.education__period {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.education__institution {
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.education__desc {
+  color: var(--text-muted);
+  margin-top: 8px;
+  line-height: 1.6;
+  max-width: 560px;
+}
