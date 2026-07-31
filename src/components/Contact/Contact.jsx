@@ -10,7 +10,7 @@ import './Contact.css';
 // from https://dashboard.emailjs.com/
 const EMAILJS_SERVICE_ID = 'service_1gqf1hl';
 const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+const EMAILJS_PUBLIC_KEY = 'M8TlNsB9VEUe4VY6p';
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });

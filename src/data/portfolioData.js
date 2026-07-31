@@ -51,11 +51,24 @@ export const services = [
 
 export const projects = [
   {
+  title: 'Portfolio Website',
+  description:
+    'A responsive personal portfolio website showcasing my projects, technical skills, and contact information. Built with clean HTML, CSS, and JavaScript, featuring a modern UI, smooth animations, and a fully responsive design.',
+  stack: ['HTML', 'CSS', 'JavaScript'],
+  link: 'https://portfollio-18.netlify.app/',
+},
+  {
     title: 'NectMate',
     description:
       'A college social network deployed to production on DigitalOcean. Debugged a cross-platform push notification failure (service worker mismatch and skip-logic bug blocking FCM delivery) and tuned Nginx for caching, security headers, and gzip.',
     stack: ['React', 'Node.js', 'MySQL', 'Redis', 'Nginx'],
     link: 'https://nectmate.com',
+  },
+  {
+    title:'Todo-App',
+    description:"A simple task manager with a deliberately over-the-top late-90s web aesthetic: tiled starfield background, beveled Windows 95 buttons, scrolling marquee banners, blinking under construction badges, and a rainbow-animated title. Under the hood it's plain HTML/CSS/JavaScript with no frameworks or build step — tasks are stored in localStorage, so your list persists across page reloads",
+    Stack: ['HTML', 'CSS', 'vanilla JavaScript'],
+    link:'https://to-do-app-gi.netlify.app/'
   },
   {
     title: 'Real-Time Chat Application',
