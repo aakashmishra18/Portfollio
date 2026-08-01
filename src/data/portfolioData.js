@@ -57,33 +57,40 @@ export const projects = [
   stack: ['HTML', 'CSS', 'JavaScript'],
   link: 'https://portfollio-18.netlify.app/',
 },
-  {
-    title: 'NectMate',
-    description:
-      'A college social network deployed to production on DigitalOcean. Debugged a cross-platform push notification failure (service worker mismatch and skip-logic bug blocking FCM delivery) and tuned Nginx for caching, security headers, and gzip.',
-    stack: ['React', 'Node.js', 'MySQL', 'Redis', 'Nginx'],
-    link: 'https://nectmate.com',
-  },
- {
+{
   title:'Todo-App',
   description:"A simple task manager with a deliberately over-the-top late-90s web aesthetic...",
   stack: ['HTML', 'CSS', 'vanilla JavaScript'],   // ✅ fixed
   link:'https://to-do-app-gi.netlify.app/'
 },
-  {
-    title: 'Real-Time Chat Application',
-    description:
-      'A full chat app with live messaging via Socket.io, Prisma ORM over MySQL, and a React 18 frontend — including a fix for a StrictMode duplicate-key bug in the message listener.',
-    stack: ['React', 'Node.js', 'Express', 'Socket.io', 'Prisma', 'MySQL'],
-    link: '#',
-  },
-  {
-    title: 'Employee Management System',
-    description:
-      'A backend covering eight database tables with role-based access control across four roles (admin, HR, manager, employee) and JWT authentication.',
-    stack: ['Node.js', 'Express', 'MySQL', 'JWT'],
-    link: '#',
-  },
+{
+  title: 'Real-Time Chat Application',
+  description:
+  'A full chat app with live messaging via Socket.io, Prisma ORM over MySQL, and a React 18 frontend — including a fix for a StrictMode duplicate-key bug in the message listener.',
+  stack: ['React', 'Node.js', 'Express', 'Socket.io', 'Prisma', 'MySQL'],
+  link: '#',
+},
+{
+  title: 'Weather Application',
+  description:
+    'Developed a modern weather application using React and the OpenWeather API to display real-time weather information, including temperature, humidity, wind speed, and weather conditions. Implemented component-based architecture, API integration, responsive design, and efficient state management for a seamless user experience.',
+  stack: ['React', 'JavaScript', 'Vite', 'CSS', 'OpenWeather API'],
+  link: 'https://weather-applicatiot.netlify.app/',
+},
+{
+  title: 'NectMate',
+  description:
+    'A college social network deployed to production on DigitalOcean. Debugged a cross-platform push notification failure (service worker mismatch and skip-logic bug blocking FCM delivery) and tuned Nginx for caching, security headers, and gzip.',
+  stack: ['React', 'Node.js', 'MySQL', 'Redis', 'Nginx'],
+  link: 'https://nectmate.com',
+},
+  // {
+  //   title: 'Employee Management System',
+  //   description:
+  //     'A backend covering eight database tables with role-based access control across four roles (admin, HR, manager, employee) and JWT authentication.',
+  //   stack: ['Node.js', 'Express', 'MySQL', 'JWT'],
+  //   link: '#',
+  // },
 
   {
     title: 'JWT Auth System',
