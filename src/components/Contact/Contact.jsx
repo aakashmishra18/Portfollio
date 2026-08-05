@@ -6,11 +6,9 @@ import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { personal } from '../../data/portfolioData.js';
 import './Contact.css';
 
-// TODO: replace with your own EmailJS service ID, template ID, and public key
-// from https://dashboard.emailjs.com/
-const EMAILJS_SERVICE_ID = 'service_1gqf1hl';
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-const EMAILJS_PUBLIC_KEY = 'M8TlNsB9VEUe4VY6p';
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -28,9 +26,10 @@ export default function Contact() {
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          from_email: form.email,
+          name: form.name,
+          email: form.email,
           message: form.message,
+          title: 'New message from portfolio',
         },
         { publicKey: EMAILJS_PUBLIC_KEY }
       );

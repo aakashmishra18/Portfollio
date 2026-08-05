@@ -106,13 +106,25 @@ export const education = [
   {
     degree: 'Full Stack Developer Intern',
     institution: 'Particle14',
-    period: '', // TODO: add dates
-    description: 'Hands-on Backend, Frontend, and database work across production systems.',
+    period: '', // Add your internship dates if you'd like
+    description:
+      'Hands-on Backend, Frontend, and database work across production systems.',
   },
-  // TODO: add your degree(s) / school here, e.g.
-  // { degree: 'B.Tech, Computer Science', institution: 'Your University', period: '2021 — 2025', description: '' },
+  {
+    degree: 'Master of Computer Applications (MCA)',
+    institution: 'Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad',
+    period: '2024 — 2026',
+    description:
+      'Focused on Full-Stack Web Development, Data Structures & Algorithms, Database Management Systems, and Software Engineering.',
+  },
+  {
+    degree: 'Bachelor of Computer Applications (BCA)',
+    institution: 'INMANTEC Institutions, Ghaziabad',
+    period: '2021 — 2024',
+    description:
+      'Built a strong foundation in programming, databases, computer networks, and web development.',
+  },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },

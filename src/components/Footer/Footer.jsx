@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer__inner">
-        <span>© {year} {personal.name}. Built with React &amp; Vite.</span>
+        <span>© {year} {personal.name}.</span>
         <a href="#home">Back to top ↑</a>
       </div>
     </footer>

@@ -7,7 +7,7 @@ const codeLines = [
   { indent: 0, text: 'const developer = {' },
   { indent: 1, text: `name: '${personal.name}',` },
   { indent: 1, text: `role: '${personal.role}',` },
-  { indent: 1, text: `stack: ['React', 'Node.js', 'FastAPI'],` },
+  { indent: 1, text: `stack: ['React', 'Node.js',Express.js,PostgreSQL],` },
   { indent: 1, text: `status: 'open to work',` },
   { indent: 0, text: '};' },
 ];
